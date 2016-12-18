@@ -11,9 +11,7 @@ use Drupal\user\EntityOwnerInterface;
  *
  * @ingroup wishlists
  */
-interface WishlistInterface extends  ContentEntityInterface, EntityChangedInterface, EntityOwnerInterface {
-
-  // Add get/set methods for your configuration properties here.
+interface WishlistInterface extends ContentEntityInterface, EntityChangedInterface, EntityOwnerInterface {
 
   /**
    * Gets the Wishlist name.
