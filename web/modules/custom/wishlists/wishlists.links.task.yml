@@ -1,0 +1,22 @@
+# Wishlist routing definition
+wishlist.settings_tab:
+  route_name: wishlist.settings
+  title: 'Settings'
+  base_route: wishlist.settings
+
+entity.wishlist.canonical:
+  route_name: entity.wishlist.canonical
+  base_route: entity.wishlist.canonical
+  title: 'View'
+
+entity.wishlist.edit_form:
+  route_name: entity.wishlist.edit_form
+  base_route: entity.wishlist.canonical
+  title: 'Edit'
+
+entity.wishlist.delete_form:
+  route_name:  entity.wishlist.delete_form
+  base_route:  entity.wishlist.canonical
+  title: Delete
+  weight: 10
+

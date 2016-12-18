@@ -1,0 +1,5 @@
+name: Wishlists
+type: module
+description: Wishlist entity and related functionality.
+core: 8.x
+package: Wishlist

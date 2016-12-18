@@ -1,0 +1,5 @@
+entity.wishlist.add_form:
+  route_name: entity.wishlist.add_form
+  title: 'Add Wishlist'
+  appears_on:
+    - entity.wishlist.collection

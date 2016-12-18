@@ -1,0 +1,22 @@
+add wishlists:
+  title: 'Create new wishlists'
+
+administer wishlists:
+  title: 'Administer wishlists'
+  description: 'Allow to access the administration form to configure wishlists.'
+  restrict access: true
+
+delete wishlists:
+  title: 'Delete wishlists'
+
+edit wishlists:
+  title: 'Edit wishlists'
+
+access wishlist overview:
+  title: 'Access the Wishlist overview page'
+
+view published wishlists:
+  title: 'View published wishlists'
+
+view unpublished wishlists:
+  title: 'View unpublished wishlists'

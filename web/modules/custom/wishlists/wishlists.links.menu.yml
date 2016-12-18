@@ -1,0 +1,14 @@
+
+# Wishlist menu items definition
+entity.wishlist.collection:
+  title: 'Wishlist list'
+  route_name: entity.wishlist.collection
+  description: 'List Wishlist entities'
+  parent: system.admin_structure
+  weight: 100
+
+wishlist.admin.structure.settings:
+  title: Wishlist settings
+  description: 'Configure Wishlist entities'
+  route_name: wishlist.settings
+  parent: system.admin_structure
