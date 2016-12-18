@@ -16,7 +16,6 @@ class WishlistViewsData extends EntityViewsData implements EntityViewsDataInterf
   public function getViewsData() {
     $data = parent::getViewsData();
 
-
     return $data;
   }
 
