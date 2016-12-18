@@ -21,7 +21,6 @@ use Drupal\user\UserInterface;
  *     "view_builder" = "Drupal\Core\Entity\EntityViewBuilder",
  *     "list_builder" = "Drupal\wishlists\WishlistListBuilder",
  *     "views_data" = "Drupal\wishlists\Entity\WishlistViewsData",
- *     "translation" = "Drupal\wishlists\WishlistTranslationHandler",
  *
  *     "form" = {
  *       "default" = "Drupal\wishlists\Form\WishlistForm",
@@ -35,8 +34,6 @@ use Drupal\user\UserInterface;
  *     },
  *   },
  *   base_table = "wishlist",
- *   data_table = "wishlist_field_data",
- *   translatable = TRUE,
  *   admin_permission = "administer wishlist entities",
  *   entity_keys = {
  *     "id" = "id",
