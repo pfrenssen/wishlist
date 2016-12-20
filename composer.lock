@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "c78d13af1f7b0ef4ab498161b9946d5d",
-    "content-hash": "0ee47023e7629d73142bd5b9ac75673a",
+    "hash": "6a617f2f855b0e26139f429238dae211",
+    "content-hash": "505c0a21aed34dba6e1f470fabaecee7",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -1647,6 +1647,59 @@
             ],
             "description": "Drupal is an open source content management platform powering millions of websites and applications.",
             "time": "2016-12-07 18:31:42"
+        },
+        {
+            "name": "drupal/email_registration",
+            "version": "dev-1.x",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/email_registration",
+                "reference": "30e81ee75ca32288c4c1146d3d077d299c399a0a"
+            },
+            "require": {
+                "drupal/core": "~8.0"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.0-rc3+2-dev",
+                    "datestamp": "1478012639"
+                },
+                "patches_applied": {
+                    "https://www.drupal.org/node/657472 - Add setting to allow users to login with email address or username": "https://www.drupal.org/files/issues/657472-120.patch"
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Chris Herberte",
+                    "homepage": "https://www.drupal.org/user/1171"
+                },
+                {
+                    "name": "andypost",
+                    "homepage": "https://www.drupal.org/user/118908"
+                },
+                {
+                    "name": "greggles",
+                    "homepage": "https://www.drupal.org/user/36762"
+                },
+                {
+                    "name": "moshe weitzman",
+                    "homepage": "https://www.drupal.org/user/23"
+                }
+            ],
+            "description": "Allows users to register with an e-mail address as their username.",
+            "homepage": "https://www.drupal.org/project/email_registration",
+            "support": {
+                "source": "http://cgit.drupalcode.org/email_registration"
+            },
+            "time": "2016-11-01 15:00:39"
         },
         {
             "name": "drush/drush",
@@ -5652,6 +5705,9 @@
                 "drupal": {
                     "version": "8.x-1.0-rc1+8-dev",
                     "datestamp": "1466497439"
+                },
+                "patches_applied": {
+                    "https://www.drupal.org/node/2558299 - Create config/install folders when missing": "https://www.drupal.org/files/issues/2558299-7.patch"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
@@ -5688,7 +5744,8 @@
             "homepage": "https://www.drupal.org/project/config_devel",
             "support": {
                 "source": "http://cgit.drupalcode.org/config_devel"
-            }
+            },
+            "time": "2016-06-21 08:20:33"
         },
         {
             "name": "drupal/devel",
@@ -7255,6 +7312,7 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
+        "drupal/email_registration": 20,
         "behat/mink-selenium2-driver": 20,
         "drupal/config_devel": 20,
         "drupal/devel": 20,

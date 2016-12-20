@@ -8,6 +8,7 @@ dependencies:
   - ckeditor
   - dynamic_page_cache
   - editor
+  - email_registration
   - page_cache
   - toolbar
   - wishlists

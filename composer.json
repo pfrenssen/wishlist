@@ -40,6 +40,7 @@
         "cweagans/composer-patches": "~1.0",
         "drupal/console": "~1.0",
         "drupal/core": "~8.0",
+        "drupal/email_registration": "1.x-dev",
         "drush/drush": "~8.0",
         "php": ">=5.5.9"
     },
@@ -100,7 +101,10 @@
         },
         "patches": {
             "drupal/config_devel": {
-                "Create config/install folders when missing": "https://www.drupal.org/files/issues/2558299-7.patch"
+                "https://www.drupal.org/node/2558299 - Create config/install folders when missing": "https://www.drupal.org/files/issues/2558299-7.patch"
+            },
+            "drupal/email_registration": {
+                "https://www.drupal.org/node/657472 - Add setting to allow users to login with email address or username": "https://www.drupal.org/files/issues/657472-120.patch"
             }
         }
     }

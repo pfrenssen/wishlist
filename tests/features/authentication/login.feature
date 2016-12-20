@@ -10,20 +10,11 @@ Feature: User login
     When I visit "user"
     Then I should see the text "Log in"
     And I should see the text "Reset your password"
-    And I should see the text "Username"
+    And I should see the text "E-mail"
     And I should see the text "Password"
     But I should not see the text "Log out"
     And I should not see the text "My account"
-
-  Scenario Outline: Anonymous user cannot access site administration
-    Given I am not logged in
-    When I go to "<path>"
-    Then I should get an access denied error
-
-    Examples:
-      | path            |
-      | admin           |
-      | admin/config    |
-      | admin/content   |
-      | admin/people    |
-      | admin/structure |
+    When I fill in the following:
+    | E-mail   | mort@sto-helit.org |
+    | Password | Ysabell123         |
+    And I press "Log in"
