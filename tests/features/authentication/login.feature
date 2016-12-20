@@ -1,3 +1,4 @@
+@api
 Feature: User login
   In order to use personalized features of the site
   As a user
@@ -18,3 +19,4 @@ Feature: User login
     | E-mail   | mort@sto-helit.org |
     | Password | Ysabell123         |
     And I press "Log in"
+    Then I should see the heading "My wishlists"
