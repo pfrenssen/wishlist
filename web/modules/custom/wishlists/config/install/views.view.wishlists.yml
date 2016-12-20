@@ -198,9 +198,9 @@ display:
         - url.query_args
         - user
       tags: {  }
-  page_1:
+  my_wishlists:
     display_plugin: page
-    id: page_1
+    id: my_wishlists
     display_title: 'My wishlists page'
     position: 1
     display_options:
