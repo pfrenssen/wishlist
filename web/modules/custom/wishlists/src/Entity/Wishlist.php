@@ -44,10 +44,10 @@ use Drupal\user\UserInterface;
  *     "status" = "status",
  *   },
  *   links = {
- *     "canonical" = "/wishlist/wishlist/{wishlist}",
- *     "add-form" = "/wishlist/wishlist/add",
- *     "edit-form" = "/wishlist/wishlist/{wishlist}/edit",
- *     "delete-form" = "/wishlist/wishlist/{wishlist}/delete",
+ *     "canonical" = "/wishlist/{wishlist}",
+ *     "add-form" = "/wishlist/add",
+ *     "edit-form" = "/wishlist/{wishlist}/edit",
+ *     "delete-form" = "/wishlist/{wishlist}/delete",
  *     "collection" = "/wishlist/wishlist",
  *   },
  *   field_ui_base_route = "wishlist.settings"
