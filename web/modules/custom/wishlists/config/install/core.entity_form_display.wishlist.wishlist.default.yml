@@ -1,0 +1,19 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - wishlists
+id: wishlist.wishlist.default
+targetEntityType: wishlist
+bundle: wishlist
+mode: default
+content:
+  name:
+    type: string_textfield
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  user_id: true

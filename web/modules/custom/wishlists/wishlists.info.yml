@@ -8,4 +8,5 @@ dependencies:
   - views
 
 config_devel:
+  - core.entity_form_display.wishlist.wishlist.default
   - views.view.wishlists
