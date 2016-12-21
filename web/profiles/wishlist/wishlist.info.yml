@@ -16,3 +16,8 @@ dependencies:
 themes:
   - bartik
   - seven
+
+config_devel:
+  - user.role.administrator
+  - user.role.anonymous
+  - user.role.authenticated
