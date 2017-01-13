@@ -30,5 +30,8 @@ default:
       subcontexts:
         paths:
           - '${behat.subcontexts.path}'
+    FriendsOfBehat\ServiceContainerExtension:
+      imports:
+        - "../web/modules/contrib/email_registration/behat.services.yml"
   formatters:
     ${behat.formatter.name}: ~
